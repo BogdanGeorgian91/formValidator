@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form Validation</title>
+</head>
+
+<body>
+
+    <form id="form">
+
+
+        <div class="container">
+            <label for="name">Name:</label> <br>
+            <input type="text" id="name" placeholder="Name...">
+            <div id="n-error" class="error"></div>
+        </div>
+
+        <div class="container">
+            <label for="email">Email:</label> <br>
+            <input type="email" id="email" placeholder="Email...">
+            <div id="e-error" class="error"></div>
+        </div>
+
+        <div class="container">
+            <label for="phone">Phone:</label> <br>
+            <input type="text" id="phone" placeholder="Phone number">
+            <div id="p-error" class="error"></div>
+        </div>
+
+        <div class="container">
+            <span class="invalid">invalid</span>
+            <button id="submit-btn">Validate</button>
+            <span class="valid">valid</span>
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
